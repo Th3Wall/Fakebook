@@ -1,12 +1,16 @@
+@import '../../sass/mixin.sass'
+    
 .header
     position: sticky
     z-index: 100
     top: 0
     display: flex
     justify-content: space-between
-    padding: 15px 20px
+    padding: 8px 20px
     background-color: #ffffff
     box-shadow: 0 5px 8px -9px rgba(0,0,0,.75)
+    @include mq(701px)
+        padding: 0 20px
 
     &__left
         display: flex
@@ -14,39 +18,68 @@
         justify-content: space-evenly
 
         &--input
-            display: flex
-            align-items: center
-            background-color: #eff2f5
-            margin-left: 10px
-            padding: 10px
-            border-radius: 999px
+            display: none
+            @include mq(lg)
+                display: flex
+                align-items: center
+                background-color: #eff2f5
+                margin-left: 10px
+                padding: 10px
+                border-radius: 999px
+                min-width: 215px
 
-            .searchinput
-                border: none
-                outline-width: 0
-                background-color: transparent
+                .searchinput
+                    border: none
+                    outline-width: 0
+                    background-color: transparent
+                    margin-left: 5px
+                    font-size: 14px
+                    width: 100%
+
+                .MuiSvgIcon-root
+                    fill: gray
 
         .logo
             height: 40px
 
+        .searchinput
+            &__mob
+                display: flex
+                margin-left: 6px
+                padding: 10px
+                background-color: #eff2f5
+                @include mq(lg)
+                    display: none
+
     &__middle
         display: flex
         flex: 1
-        justify-content: center
+        justify-content: flex-end
+        @include mq(lg)
+            justify-content: center
 
         &--option
-            display: flex
-            align-items: center
-            padding: 0 30px
-            cursor: pointer
+            display: none
+            @include mq(701px)
+                display: flex
+                align-items: center
+                justify-content: center
+                height: 60px
+                cursor: pointer
+                margin-left: 8px
+                min-width: 50px
+            @include mq(lg)
+                min-width: 110px
 
             .MuiSvgIcon-root
                 color: gray
 
+            &:first-child
+                margin-left: 0
+
             &:hover
                 align-items: center
                 border-radius: 10px
-                padding: 0 30px
                 border-bottom: none
                 background-color: #eff2f5
 
@@ -54,13 +87,13 @@
                     color: #2e81f4
 
             &-active
-                border-bottom: 4px solid #2e81f4
+                border-bottom: 3px solid #2e81f4
 
                 .MuiSvgIcon-root
                     color: #2e81f4
 
                 &:hover
-                    border-bottom: 4px solid #2e81f4
+                    border-bottom: 3px solid #2e81f4
                     border-radius: 0
                     background-color: transparent
 
@@ -68,8 +101,14 @@
         display: flex
 
         &--info
-            display: flex
-            align-items: center
+            display: none
+            @include mq(ll)
+                display: flex
+                align-items: center
 
             .displayname
                 margin-left: 10px
+            
+            .MuiAvatar-root
+                width: 35px
+                height: 35px
