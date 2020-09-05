@@ -1,10 +1,15 @@
 import React from 'react';
-import './App.css';
+import './App.sass';
+import Header from './components/header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Fakebook.</h1>
+    <div className="mainwrp">
+      <Header />
+      {/* Content Wrapper */}
+        {/* Left Custom Sidebar */}
+        {/* Post Timeline */}
+        {/* Right Sidebar */}
     </div>
   );
 }

@@ -1,0 +1,75 @@
+.header
+    position: sticky
+    z-index: 100
+    top: 0
+    display: flex
+    justify-content: space-between
+    padding: 15px 20px
+    background-color: #ffffff
+    box-shadow: 0 5px 8px -9px rgba(0,0,0,.75)
+
+    &__left
+        display: flex
+        align-items: center
+        justify-content: space-evenly
+
+        &--input
+            display: flex
+            align-items: center
+            background-color: #eff2f5
+            margin-left: 10px
+            padding: 10px
+            border-radius: 999px
+
+            .searchinput
+                border: none
+                outline-width: 0
+                background-color: transparent
+
+        .logo
+            height: 40px
+
+    &__middle
+        display: flex
+        flex: 1
+        justify-content: center
+
+        &--option
+            display: flex
+            align-items: center
+            padding: 0 30px
+            cursor: pointer
+
+            .MuiSvgIcon-root
+                color: gray
+
+            &:hover
+                align-items: center
+                border-radius: 10px
+                padding: 0 30px
+                border-bottom: none
+                background-color: #eff2f5
+
+                .MuiSvgIcon-root
+                    color: #2e81f4
+
+            &-active
+                border-bottom: 4px solid #2e81f4
+
+                .MuiSvgIcon-root
+                    color: #2e81f4
+
+                &:hover
+                    border-bottom: 4px solid #2e81f4
+                    border-radius: 0
+                    background-color: transparent
+
+    &__right
+        display: flex
+
+        &--info
+            display: flex
+            align-items: center
+
+            .displayname
+                margin-left: 10px
