@@ -2,5 +2,8 @@
     
 .sidebar
     &__left
-        flex: 0.33
-        padding: 25px 10px
+        display: none
+        @include mq(1100px)
+            display: block
+            flex: 0.33
+            padding: 25px 10px
