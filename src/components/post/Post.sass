@@ -55,3 +55,8 @@
 
             p
                 margin-left: 10px
+
+            &.nomob
+                display: none
+                @include mq(md)
+                    display: flex

@@ -73,3 +73,8 @@
             &:hover
                 background-color: #eff2f5
                 color: #606266
+
+            &.nomob
+                display: none
+                @include mq(600px)
+                    display: flex

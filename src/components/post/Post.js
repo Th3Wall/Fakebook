@@ -36,7 +36,7 @@ function Post({ authorPic, authorName, timestamp, message, optionalImg }) {
                     <NearMeIcon />
                     <p>Share</p>
                 </div>
-                <div className="post__options--option">
+                <div className="post__options--option nomob">
                     <AccountCircleIcon />
                     <ExpandMoreIcon />
                 </div>
