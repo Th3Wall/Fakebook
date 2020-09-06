@@ -1,0 +1,39 @@
+@import '../../sass/mixin.sass'
+    
+.contact
+    display: flex
+    align-items: center
+    cursor: pointer
+    padding: 10px
+    border-radius: 10px
+
+    &:hover
+        background-color: #e4e6e9
+
+    h4
+        font-size: 15px
+        margin-left: 15px
+        font-weight: 600
+
+    .MuiAvatar-img
+        width: 32px
+        height: 32px
+        border-radius: 50%
+
+    &__avatar
+        height: 32px
+
+
+    .avatar
+        &__wrp
+            position: relative
+
+            .online
+                position: absolute
+                bottom: 0
+                right: 0
+                background-color: green
+                border: 2px solid #eff2f5
+                width: 8px
+                height: 8px
+                border-radius: 50%
