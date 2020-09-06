@@ -1,0 +1,57 @@
+@import '../../sass/mixin.sass'
+    
+.post
+    margin-top: 15px
+    border-radius: 15px
+    background-color: #ffffff
+    width: 100%
+    box-shadow: 0 5px 7px -7px rgba(0,0,0,0.75)
+
+    &__top
+        display: flex
+        align-items: center
+        position: relative
+        padding: 15px
+
+    &__avatar
+        margin-right: 10px
+
+    &__info
+        h3
+            font-size: medium
+        p
+            font-size: small
+            color: gray
+
+    &__media
+        img
+            width: 100%
+
+    &__bottom
+        padding: 10px 25px
+        margin-top: 10px
+        margin-bottom: 10px
+
+    &__options
+        display: flex
+        justify-content: space-evenly
+        align-items: center
+        font-size: medium
+        padding: 5px 15px
+        border-top: 1px solid #eff2f5
+        cursor: pointer
+        color: gray
+
+        &--option
+            display: flex
+            align-items: center
+            justify-content: center
+            flex: 1
+            padding: 10px 5px
+            border-radius: 10px
+
+            &:hover
+                background-color: #eff2f5
+
+            p
+                margin-left: 10px
