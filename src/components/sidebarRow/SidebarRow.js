@@ -3,6 +3,7 @@ import { Avatar } from '@material-ui/core';
 import './SidebarRow.sass'
 
 function SidebarRow({ title, src, Icon, birthdays }) {
+    
     return (
         <div className="sidebar__row">
             {src && <Avatar src={src} />}

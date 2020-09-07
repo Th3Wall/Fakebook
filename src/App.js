@@ -5,9 +5,10 @@ import LeftSidebar from './components/leftSidebar/LeftSidebar';
 import Feed from './components/feed/Feed';
 import RightSidebar from './components/rightSidebar/RightSidebar';
 import Login from './components/login/Login';
+import { useStateValue } from './StateProvider'
 
 function App() {
-  const user = null;
+  const [{user}] = useStateValue();
 
   return (
     <div className="mainwrp app">

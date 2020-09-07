@@ -9,7 +9,7 @@ function Contact({ contactAvatar, contactName }) {
                 (
                     <div className="contact contact__wrp">
                         <div className="avatar__wrp">
-                            <Avatar src={contactAvatar} class="contact__avatar" />
+                            <Avatar src={contactAvatar} className="contact__avatar" />
                             <div className="online"></div>
                         </div>
                         <h4 className="contact__name">{contactName}</h4>
