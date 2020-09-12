@@ -1,3 +1,8 @@
+![Image of Fakebook Project](https://i.postimg.cc/mkHxSgHP/fakebook-readme.jpg)
+
+# Fakebook
+> This is a Facebook-clone project created with the purpose of learning the fundamentals of React.js starting from a simple Create React App.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
