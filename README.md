@@ -9,7 +9,7 @@ I've started this project with the idea of practice the fundamentals of React.js
 I have re-built the brand new Facebook web interface structuring the project in small React components.
 The build has a built-in Google Authentication, so you require a Google account in order to be able to sign in and see the complete dashboard.
 
-# :dart: Demo
+# Demo
 Here's the [demo link](https://fakebook-8b087.web.app/).
 
 ## :sparkles: Features ##
