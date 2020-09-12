@@ -2,8 +2,11 @@
 
 # Fakebook
 > This is a Facebook-clone project created with the purpose of learning the fundamentals of React.js starting from a simple Create React App.
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
+
+Here's the demo link: [https://fakebook-8b087.web.app/] (https://fakebook-8b087.web.app/)
 
 ## Available Scripts
 
