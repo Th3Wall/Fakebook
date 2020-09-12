@@ -14,9 +14,9 @@ Here's the [demo link](https://fakebook-8b087.web.app/).
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Google Authentication
-:heavy_check_mark: Cloud Firestore DB (Google Firebase)
-:heavy_check_mark: Show Facebook cloned web-dashboard
+:heavy_check_mark: Google Authentication<br />
+:heavy_check_mark: Cloud Firestore DB (Google Firebase)<br />
+:heavy_check_mark: Show Facebook cloned web-dashboard<br />
 :heavy_check_mark: Responsive site
 
 ## :rocket: Technologies ##
