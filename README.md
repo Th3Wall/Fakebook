@@ -6,7 +6,7 @@
 
 ## Demo
 
-Here's the demo link: [https://fakebook-8b087.web.app/] (https://fakebook-8b087.web.app/)
+Here's the [demo link](https://fakebook-8b087.web.app/).
 
 ## Available Scripts
 
