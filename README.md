@@ -2,11 +2,33 @@
 
 # Fakebook
 > This is a Facebook-clone project created with the purpose of learning the fundamentals of React.js starting from a simple Create React App.
-> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Demo
+## 🎯 About ##
 
+I've started this project with the idea of practice the fundamentals of React.js starting from a really simple [Create React App](https://github.com/facebook/create-react-app).
+I have re-built the brand new Facebook web interface structuring the project in small React components.
+The build has a built-in Google Authentication, so you require a Google account in order to be able to sign in and see the complete dashboard.
+
+# :dart: Demo
 Here's the [demo link](https://fakebook-8b087.web.app/).
+
+## :sparkles: Features ##
+
+:heavy_check_mark: Google Authentication
+:heavy_check_mark: Cloud Firestore DB (Google Firebase)
+:heavy_check_mark: Show Facebook cloned web-dashboard
+:heavy_check_mark: Responsive site
+
+## :rocket: Technologies ##
+
+- [React](https://reactjs.org/)
+- [React Context API](https://reactjs.org/docs/context.html)
+- [Firebase Tools](https://firebase.google.com/)
+- [Sass](https://sass-lang.com/)
+
+## :white_check_mark: Requirements ##
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ## Available Scripts
 
