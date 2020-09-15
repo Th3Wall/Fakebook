@@ -23,6 +23,7 @@ Here's the [demo link](https://fakebook-8b087.web.app/).
 
 - [React](https://reactjs.org/)
 - [React Context API](https://reactjs.org/docs/context.html)
+- [Material UI](https://material-ui.com/)
 - [Firebase Tools](https://firebase.google.com/)
 - [Sass](https://sass-lang.com/)
 
