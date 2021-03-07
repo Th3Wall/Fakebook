@@ -1,4 +1,4 @@
-![Image of Fakebook Project](https://i.postimg.cc/mkHxSgHP/fakebook-readme.jpg)
+![Image of Fakebook Project](https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakebook/Fakebook_readme.png)
 
 # Fakebook
 > This is a Facebook-clone project created with the purpose of learning the fundamentals of React.js starting from a simple Create React App.
