@@ -15,10 +15,10 @@ Here's the [demo link](https://fakebook-8b087.web.app/).
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Google Authentication<br />
-:heavy_check_mark: Cloud Firestore DB (Google Firebase)<br />
-:heavy_check_mark: Show Facebook cloned web-dashboard<br />
-:heavy_check_mark: Responsive site
+:heavy_check_mark: &nbsp;Google Authentication<br />
+:heavy_check_mark: &nbsp;Cloud Firestore DB (Google Firebase)<br />
+:heavy_check_mark: &nbsp;Show Facebook cloned web-dashboard<br />
+:heavy_check_mark: &nbsp;Responsive site
 
 ## :rocket: Technologies ##
 
